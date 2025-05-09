@@ -1,12 +1,29 @@
-# React + Vite
+# ✅ Daily Status Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based daily status/task tracking application. Easily manage personal or team updates by logging task progress, category, and blockers in a clean, tabular format.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🔄 Add, Edit, and View tasks
+- 📆 Auto-fills the current date for status updates
+- 📊 Tracks category, status, progress, and blockers
+- 🎨 Color-coded task rows by category
+- ⚛️ Built using React Hooks (`useState`)
+- 💻 Fully client-side – no backend needed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+
+- **React.js**
+- **HTML5 + CSS3**
+- Optional: **Vercel** or **GitHub Pages** for deployment
+
+
+## 🗂️ Folder Structure
+src/
+├── App.css # Custom styles
+├── TaskApp.js # Main component logic
+├── index.js # React DOM entry point
+
+
