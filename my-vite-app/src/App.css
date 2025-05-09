@@ -1,0 +1,112 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-image: url('C:\Users\Dell\Documents\daily ststus trakar\my-vite-app\public\TRACK.jpg'); 
+  background-size: cover;  
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  margin: 0;
+  padding: 20px;
+}
+
+.navbar {
+  background-color:#1fa5b9;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.navbar .link {
+  color: white;
+  text-decoration: none;
+}
+
+.task-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.task-container h1 {
+  margin-bottom: 20px;
+}
+
+.input-form input, .input-form select, .input-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.input-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input-form button:hover {
+  background-color: #45a049;
+}
+
+.task-list {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+button[style*="background-color: #f44336"] {
+  background-color: #f44336; /* For cancel button */
+}
+
+button[style*="background-color: #f44336"]:hover {
+  background-color: #d32f2f;
+}
