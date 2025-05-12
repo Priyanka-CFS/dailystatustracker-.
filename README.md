@@ -6,9 +6,13 @@ A simple React-based daily status/task tracking application. Easily manage perso
 🔄 Add, Edit, and View tasks
 
 📆 Auto-fills the current date for status updates
+
 📊 Tracks category, status, progress, and blockers
+
 🎨 Color-coded task rows by category
+
 ⚛️ Built using React Hooks (useState)
+
 💻 Fully client-side – no backend needed
 
 
